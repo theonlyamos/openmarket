@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html {
+  background-color: antiquewhite;
+  overflow-y: scroll;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search-input {
+  opacity: 0.3;
+  background: #47474d;
+  border-radius: 10px;
+}
+
+.card {
+  border-color: #2a2a2d !important;
+}
+
+
+input.form-control {
+  background: transparent !important;
+  border: none !important;
+  color: whitesmoke !important;
+  font-size: 0.9em;
+}
+
+.product {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.product.store-name {
+  font-size: 0.7em;
+  font-weight: 100;
+}
+
+.product.old-price {
+  text-decoration: line-through;
+  font-size: 0.8em;
+}
+
+.product.product-name .product-price {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.product-description {
+  letter-spacing: 1px;
+  font-size: 0.8em;
+}
+
+footer {
+  width: 100%;
+  position: fixed !important; 
+  bottom: 0;
+  opacity: 0.8;
+}
+
+.action.share {
+  clip-path: polygon(0 17%, 78% 6%, 100% 81%, 0 82%);
+  border-radius: 10px;
+  /* border-radius: 15px 60px 0 15px; */
+}
+
+.action.cart {
+  clip-path: polygon(0 6%, 100% 15%, 100% 81%, 22% 81%);
+}
+
+.color-container {
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.color-box {
+  width: 25px;
+  height: 25px;
+  border-radius: 50% !important;
+  border-width: 3px !important;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.color-text {
+  margin-left: 4px;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+}
+
+.border {
+  border-color: #2a2a2d !important;
+  border-radius: 10px;
+}
+
+.bg-dark {
+  background: linear-gradient(#0c0c0c,#2a2a2d,#0c0c0c) !important;
+}
+
+.bg-black {
+  background-color: #0c0c0c !important;
+}
+
+.bg-transparent {
+  background: transparent !important;
+}
+
+.fa-2x {
+  font-size: 1.5em !important;
+}
+
+/*
+@media screen and (min-width: 720px){
+  body {
+    width: 360px;
+    max-height: 640px;
+    overflow-y: auto;
+    margin: 10px auto;
+  }
+}
+*/
